@@ -1,4 +1,5 @@
 //PRIMERA ENTREGA DEL PROYECTO FINAL
+
 // Nombre y apellido
 
 let nombreIgresado = prompt("Ingrese su nombre").trim();
@@ -26,8 +27,6 @@ while (condition) {
         edad = Number(prompt('Ingrese su edad nuevamente: '))
     }
 }
-
-
 
 
 //calculadora
@@ -66,7 +65,6 @@ const CalcularValorProducto = valor => {
 console.log(CalcularValorProducto(100))
 
 
-
 //SEGUNDA ENTREGA DEL PROYECTO FINAL
 
 class ProductoPesca {
@@ -93,9 +91,9 @@ class ProductoPesca {
   // Creación de objetos 
 let productos = [
     new ProductoPesca("Caña de pescar", "Cañas", 1500, 10),
-    new ProductoPesca("Reel de pesca", "Reel", 1200, 5),
+    new ProductoPesca("Reel de pesca", "Elementos para pescar", 1200, 5),
     new ProductoPesca("Señuelos", "Accesorios", 500, 20),
-    new ProductoPesca("Anzuelos", "Anzuelos", 100, 50),
+    new ProductoPesca("Anzuelos", "kit 7 anzuelos", 100, 50),
     new ProductoPesca("Tanza", "Accesorio de reel", 150, 40),
     new ProductoPesca("Caja de pesca", "Caja", 1500, 25),
     new ProductoPesca("Lineas variadas", "Linea", 200, 100),
@@ -124,3 +122,42 @@ if (productoEncontrado !== null) {
 } else {
     console.log("Producto no encontrado.");
 }
+
+
+
+
+
+
+
+/// Tercera entrega
+
+// Cambiar elementos del index.html con DOM
+const productoCamping = document.getElementById("productoCamping");
+const h3Camping = productoCamping.querySelector("h3");
+h3Camping.textContent = "Camping al aire libre";
+const pCamping = productoCamping.querySelector("p");
+pCamping.textContent = "Animate a vivir la naturaleza con nuestros productos de Camping"
+ 
+
+
+const productoPesca = document.getElementById("productoPesca");
+const h3Pesca = productoPesca.querySelector("h3");
+h3Pesca.textContent = "Productos de Pesca";
+const pPesca = productoPesca.querySelector("p");
+pPesca.textContent = "Descubre nuestros equipos de pesca"; 
+
+// redirigir a una página específica cuando se hace clic en cada botón
+
+const botonesEnlace = document.querySelectorAll(".btn-1");
+
+botonesEnlace.forEach((boton) => {
+    boton.addEventListener("click", function() {
+        const href = boton.getAttribute("data-href");
+        if (href) {
+            window.location.href = href;
+        }
+    });
+});
+
+
+

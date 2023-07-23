@@ -21,7 +21,7 @@ body {
     background-image: linear-gradient(
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)),
-        /*url(IMAGEN)*/;
+        url(../img/imagen1.jpeg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@ body {
     background-image: linear-gradient(
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)),
-        /*url(IMAGEN)*/;
+        url(../img/imagen2.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@ body {
     background-image: linear-gradient(
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)),
-       /* url(IMAGEN)*/;
+        url(../img/imagen3.webp);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,7 +253,21 @@ body {
 }
 
 
-
+.producto-1 {
+    display: inline-block;
+    margin: 10px; /* Añade un margen para separar los elementos, ajusta según tus necesidades */
+    text-align: center; /* Opcional: Centra el contenido horizontalmente */
+  }
+  
+  .producto-1 img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+  }
+  
+  .producto-1 h3,
+  .producto-1 p,
+  .producto-1 button {
+    margin: 5px 0; /* Añade un pequeño margen entre los elementos de cada producto */
+  }
 
 
 
