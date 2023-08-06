@@ -6,9 +6,9 @@ let nombreIgresado = prompt("Ingrese su nombre").trim();
 let apellidoIngresado = prompt("Ingrese su apelido").trim();
 
 while (nombreIgresado === "" || apellidoIngresado === "") {
-  alert("error: no ingresaste su nombre y apellido correctamente");
-  nombreIgresado = prompt("Ingrese su nombre").trim();
-  apellidoIngresado = prompt("Ingrese su apellido").trim();
+alert("error: no ingresaste su nombre y apellido correctamente");
+nombreIgresado = prompt("Ingrese su nombre").trim();
+apellidoIngresado = prompt("Ingrese su apellido").trim();
 }
 
 alert("Su nombre es: " + nombreIgresado + " y su apellido es: " + apellidoIngresado);
@@ -125,39 +125,27 @@ if (productoEncontrado !== null) {
 
 
 
-
-
-
-
-/// Tercera entrega
-
-// Cambiar elementos del index.html con DOM
 const productoCamping = document.getElementById("productoCamping");
 const h3Camping = productoCamping.querySelector("h3");
 h3Camping.textContent = "Camping al aire libre";
 const pCamping = productoCamping.querySelector("p");
 pCamping.textContent = "Animate a vivir la naturaleza con nuestros productos de Camping"
- 
-
 
 const productoPesca = document.getElementById("productoPesca");
 const h3Pesca = productoPesca.querySelector("h3");
 h3Pesca.textContent = "Productos de Pesca";
 const pPesca = productoPesca.querySelector("p");
-pPesca.textContent = "Descubre nuestros equipos de pesca"; 
+pPesca.textContent = "Descubre nuestros equipos de pesca";
 
 // redirigir a una página específica cuando se hace clic en cada botón
-
 const botonesEnlace = document.querySelectorAll(".btn-1");
 
 botonesEnlace.forEach((boton) => {
-    boton.addEventListener("click", function() {
+    boton.addEventListener("click", () => {
         const href = boton.getAttribute("data-href");
         if (href) {
             window.location.href = href;
         }
     });
 });
-
-
 

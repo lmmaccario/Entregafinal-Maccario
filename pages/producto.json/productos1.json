@@ -1,0 +1,50 @@
+[
+    {
+    "id": 1,
+    "nombre": "'Carpa'",
+    "precio": 20000,
+    "categoria": "'Elementos para dormir'",
+    "stock": 100,
+    "stockUrl": "https://th.bing.com/th/id/OIP.2X8KMaNJGs-l6I2el916igHaE9?pid=ImgDet&rs=1"
+    },
+    {
+    "id": 2,
+    "nombre": "Mesa",
+    "precio": 3900,
+    "categoria": "Elementos de camping",
+    "stock": 200,
+    "stockUrl": "https://th.bing.com/th/id/R.d1ad29729c8354b89f6782b1395aeed6?rik=dmx9nvRa6maqTg&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 3,
+        "nombre": "cocina",
+        "precio": 1000,
+        "categoria": "Elementos de camping",
+        "stock": 100,
+        "stockUrl": "https://th.bing.com/th/id/OIP.vf83armEenoC1vav4NPKMQHaFO?pid=ImgDet&rs=1"
+    },
+    {
+        "id": 4,
+        "nombre": "Colchon inflable",
+        "precio": 10000,
+        "categoria": "Elementos para dormir",
+        "stock": 50,
+        "stockUrl": "https://th.bing.com/th/id/OIP.KDJrBz-Z4HFkA52KZ8IZKQHaHa?pid=ImgDet&rs=1"
+    },
+    {
+        "id": 5,
+        "nombre": "Bolsa de dormir",
+        "precio": 15000,
+        "categoria": "Elementos para dormir",
+        "stock": 100,
+        "stockUrl": "https://th.bing.com/th/id/OIP.vf83armEenoC1vav4NPKMQHaFO?pid=ImgDet&rs=1"
+    },
+    {
+        "id": 6,
+        "nombre": "Luz",
+        "precio": 10000,
+        "categoria": "Elementos de camping",
+        "stock": 60,
+        "stockUrl": "https://th.bing.com/th/id/OIP.EDZMpkl8tme3cELrigs57QHaHo?pid=ImgDet&rs=1"
+    }
+]
